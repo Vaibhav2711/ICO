@@ -1,0 +1,88 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: lightblue;
+  color: black;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(28, 133, 225);
+  color: black;
+}
+
+.input{
+  width: 200px;
+  height: 100%;
+  padding: 1%; 
+  background-color: white;
+  border-radius: 10px;
+  margin: 0rem 2rem;
+  color: black;
+  font-size: 15px;
+}
+
+.button{
+  width: 20%;
+  padding: 20px;
+  font-size: 15px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 1rem 2rem;
+  background-color:  rgb(238, 221, 30);
+  color: black;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 1.5rem;
+}
+
+
+.description {
+  margin: 2rem;
+  line-height: 1;
+  font-size: 1.5rem;
+}
+
+.image {
+  width: 150%;
+  height: 60%;
+  margin-left: 20%;
+}
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .card,
+  .footer {
+    border-color: #222;
+  }
+  .code {
+    background: #111;
+  }
+  .logo img {
+    filter: invert(1);
+  }
+}
